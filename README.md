@@ -10,7 +10,7 @@ Hello guys. In this document, you can add a business card with the person's info
 
 # Dahil etme | inclusion
 * Fonksiyonu kolaylıkda dahil edip kullanabilirsiniz.Kullanmak istediğiniz dosyaya 'from kartvizit import *' yazarak kolayca dahil edilebilir.
-* You can easily include and use the function. It can be easily included by typing 'from business card import *' to the file you want to use.
+* You can easily include and use the function. It can be easily included by typing 'from kartvizit import *' to the file you want to use.
 ```
 from kartvizit import *
 ```
@@ -63,6 +63,14 @@ from kartvizit import *
  ```
   # O anki kareyi alarak kartvizit ekleyip geri döner.
   frame = kartvizit_olustur(frame,
+                            kisi_foto,
+                            bilgiler,
+                            oran=.7,
+                            arkaplan=[15,45,222],
+                            seffaf=0.3,
+                            yazi_rengi=(1,1,1))
+  #yada | or
+  frame = create_business_card(frame,
                             kisi_foto,
                             bilgiler,
                             oran=.7,
