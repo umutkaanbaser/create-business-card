@@ -4,8 +4,8 @@ Merhaba arkadaşlar. Bu dökümanda opencv ile yaptığınız projelere fotorafl
 Hello guys. In this document, you can add a business card with the person's information and photo to the projects you do with opencv, to the photos or to the frames you take from the camera.
 
 <div style="float:left;">
-<img src="https://raw.githubusercontent.com/umutkaanbaser/create-business-card/main/ornek_example_1.jpg" width="450" title="Bill Gates Örnek Kartvizit 1"/>
-<img src="https://raw.githubusercontent.com/umutkaanbaser/create-business-card/main/ornek_example_2.jpg" width="450" title="Bill Gates Örnek Kartvizit 2"/>
+<img src="https://raw.githubusercontent.com/umutkaanbaser/create-business-card/main/ornek_example_1.jpg" width="350" title="Bill Gates Örnek Kartvizit 1"/>
+<img src="https://raw.githubusercontent.com/umutkaanbaser/create-business-card/main/ornek_example_2.jpg" width="350" title="Bill Gates Örnek Kartvizit 2"/>
 </div>
 
 # Dahil etme | inclusion
