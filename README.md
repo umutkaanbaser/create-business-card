@@ -12,7 +12,9 @@ from kartvizit import *
 
 # Ayarlar ve Argumanlar | Optional keyword arguments
 * Ayarlar ve Argumanlara aynı zamanda help(kartvizit_olustur) yada help(create_business_card) yazarakta bakabilirsiniz. 
+* You can also view Settings and Arguments by typing help(create business card) or help(create_business_card).
 * 9 Arguman almaktadır.
+* It takes 9 arguments.
   <br/><br/>
   **Foto=[required] (np.array)(np.uint8)** <br/>
   Foto: tr-> Kartvizitin üzerine yazılacağı planlanan fotoraftır,karedir.<br/>
