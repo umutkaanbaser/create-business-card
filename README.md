@@ -6,9 +6,9 @@ Hello guys. In this document, you can add a business card with the person's info
 #Dahil etme | inclusion
 *Fonksiyonu kolaylıkda dahil edip kullanabilirsiniz.Kullanmak istediğiniz dosyaya 'from kartvizit import *' yazarak kolayca dahil edilebilir.
 *You can easily include and use the function. It can be easily included by typing 'from business card import *' to the file you want to use.
-"""
+```
 from kartvizit import *
-"""
+```
 
 # Ayarlar ve Argumanlar | Optional keyword arguments
 * Ayarlar ve Argumanlara aynı zamanda help(kartvizit_olustur) yada help(create_business_card) yazarakta bakabilirsiniz. 
@@ -27,7 +27,7 @@ from kartvizit import *
   bilgiler: en-> Information such as name, surname, telephone, address of the business card holder. A maximum of 5 information can be given.
 
   oran=1 (float)
-  oran: tr-> Kartvizit boyutu varsayılan olarak 200x300 'dür, oranda varsayılan olarak 1'dir. oranı yükselterek kartvizit boyutunu değiştirebilirsiniz.
+  oran: tr-> Kartvizit boyutu varsayılan olarak 200x300 'dür, oranda varsayılan olarak 1'dir. oranı yükselterek kartvizit boyutunu değiştirebilirsiniz.\n
   oran: en-> The business card size defaults to 200x300, the ratio defaults to 1. You can change the business card size by increasing the ratio.
 
   ekle=True (boolean)
@@ -52,7 +52,7 @@ from kartvizit import *
   
   #Kullanim | use
   *Kullanıma ornek_example.py dosyasından da bakabilirsiniz.
-  """
+ ```
   # O anki kareyi alarak kartvizit ekleyip geri döner.
   frame = kartvizit_olustur(frame,
                             kisi_foto,
@@ -61,4 +61,4 @@ from kartvizit import *
                             arkaplan=[15,45,2220],
                             seffaf=0.3,
                              yazi_rengi=(1,1,1))
-  """
+  ```
