@@ -61,7 +61,7 @@ from kartvizit import *
                             kisi_foto,
                             bilgiler,
                             oran=.7,
-                            arkaplan=[15,45,2220],
+                            arkaplan=[15,45,222],
                             seffaf=0.3,
                             yazi_rengi=(1,1,1))
   ```
