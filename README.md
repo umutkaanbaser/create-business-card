@@ -1,4 +1,4 @@
-# kartvizit oluştur | create-business-card
+# kartvizit oluştur | create business card
 Merhaba arkadaşlar. Bu dökümanda opencv ile yaptığınız projelere fotoraflara yada kameradan aldığınız karelere kişinin bilgilerinin ve fotorafının yer aldığı bir kartvizit ekleyebilirsiniz.
 
 Hello guys. In this document, you can add a business card with the person's information and photo to the projects you do with opencv, to the photos or to the frames you take from the camera.
